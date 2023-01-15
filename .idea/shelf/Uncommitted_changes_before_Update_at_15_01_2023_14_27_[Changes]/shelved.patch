@@ -1,0 +1,1127 @@
+Index: Python_projekty/sredni/ekspres_do_kawy/todo.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_projekty/sredni/ekspres_do_kawy/todo.py b/Python_projekty/sredni/ekspres_do_kawy/todo.py
+new file mode 100644
+--- /dev/null	(date 1673789206825)
++++ b/Python_projekty/sredni/ekspres_do_kawy/todo.py	(date 1673789206825)
+@@ -0,0 +1,7 @@
++# TODO: 1. Print report of all coffee machine resources
++# TODO: 2. koszt kawy penny - 0.01$  1 cent, nickel - 0.05$ 5 cent, dime - 0.1$  10 cent , quater - 0.25$  25 cent
++# TODO: 3. raport jakie zasoby pozostały (milk, water, coffee, money) espresso/latte/cappucino
++# TODO: 4. sprawdzamy czy zasoby są wystarczające gdy ktoś zamawia coś do picia --> po włożeniu monety wydaje resztę i kawę
++# TODO: 5. podlicza włożone monety penny, nickel, dime i quater --> wydaje resztę
++# TODO: 6. czy transakcja  przebiegła pomyślnie --> za malo monet itp., jeśli się powiodła robimy kawę i wydajemy
++# TODO: 7. robimy kawę i odejmujemy zasoby
+\ No newline at end of file
+Index: Python_szkolenie/.idea/Python_szkolenie.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/.idea/Python_szkolenie.iml b/Python_szkolenie/.idea/Python_szkolenie.iml
+new file mode 100644
+--- /dev/null	(date 1673273179420)
++++ b/Python_szkolenie/.idea/Python_szkolenie.iml	(date 1673273179420)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Python_szkolenie/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/.idea/modules.xml b/Python_szkolenie/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1673273179492)
++++ b/Python_szkolenie/.idea/modules.xml	(date 1673273179492)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Python_szkolenie.iml" filepath="$PROJECT_DIR$/.idea/Python_szkolenie.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Python_szkolenie/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/.idea/workspace.xml b/Python_szkolenie/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1673273179523)
++++ b/Python_szkolenie/.idea/workspace.xml	(date 1673273179523)
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="adf18d76-1966-4f22-890d-2c5b1f15e256" name="Changes" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ProjectId" id="2K5nAq0kB0miejLICl8lpxnxe8U" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "H:/Git_projekty/Python_100"
++  }
++}]]></component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="adf18d76-1966-4f22-890d-2c5b1f15e256" name="Changes" comment="" />
++      <created>1673273170611</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1673273170611</updated>
++    </task>
++    <servers />
++  </component>
++</project>
+\ No newline at end of file
+Index: Python_szkolenie/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/.idea/misc.xml b/Python_szkolenie/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1673273179570)
++++ b/Python_szkolenie/.idea/misc.xml	(date 1673273179570)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/debugging.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/debugging.py b/Python_szkolenie/podstawy/debugging.py
+new file mode 100644
+--- /dev/null	(date 1673699832846)
++++ b/Python_szkolenie/podstawy/debugging.py	(date 1673699832846)
+@@ -0,0 +1,87 @@
++############DEBUGGING#####################
++
++# Describe Problem
++# jest tylko do 19
++def my_function():
++    for i in range(1, 20):
++        if i == 20:
++            print("You got it")
++my_function()
++
++# poprawnie
++def my_function():
++    for i in range(1, 21):
++        if i == 20:
++            print("You got it")
++my_function()
++
++
++# Reproduce the Bug
++# poprawnie randint nie(1,6) ale (1,5)
++from random import randint
++dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
++dice_num = randint(1, 5)
++print(dice_imgs[dice_num])
++
++
++# Play Computer
++year = int(input("What's your year of birth? "))
++if year > 1980 and year < 1994:
++  print("You are a millenial.")
++elif year > 1994:
++  print("You are a Gen Z.")
++
++# prawidłowo
++year = int(input("What's your year of birth? "))
++if year > 1980 and year < 1994:
++  print("You are a millenial.")
++elif year > 1994:
++  print("You are a Gen Z.")
++
++# Fix the Errors
++# age = input("How old are you?")
++# if age > 18:
++#     print("You can drive at age {age}.")
++
++# prawidłowo
++age = int(input("How old are you?"))
++if age > 18:
++    print("You can drive at age {age}.")
++
++#Print is Your Friend
++pages = 0
++word_per_page = 0
++pages = int(input("Number of pages: "))
++word_per_page == int(input("Number of words per page: "))
++total_words = pages * word_per_page
++print(total_words)
++
++# prawidłowo
++pages = 0
++word_per_page = 0
++pages = int(input("Number of pages: "))
++word_per_page = int(input("Number of words per page: ")) # znak równości
++total_words = pages * word_per_page
++print(f'pages {pages}')
++print(f'word_per_page {word_per_page}')
++print(total_words)
++
++#Use a Debugger
++def mutate(a_list):
++  b_list = []
++  for item in a_list:
++    new_item = item * 2
++  b_list.append(new_item)
++  print(b_list)
++
++mutate([1,2,3,5,8,13])
++
++# prawidłowo
++def mutate(a_list):
++  b_list = []
++  for item in a_list:
++    new_item = item * 2
++    b_list.append(new_item)
++  print(b_list)
++
++mutate([1,2,3,5,8,13])
+\ No newline at end of file
+Index: Python_projekty/podstawowy/zgadywanka_liczb/zgadywanka.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from art_logo import logo\r\nfrom random import randint\r\n\r\n# http://patorjk.com/software/taag/#p=display&h=3&f=Graffiti&t=Type%20Something%20\r\n\r\nEASY_LEVEL = 10\r\nHARD_LEVEL = 5\r\n\r\ndef check_answer(komp_liczba, user_liczba, turns):\r\n    if user_liczba > komp_liczba:\r\n        print(f'Podałeś {user_liczba} - Twoja liczba jest za duża')\r\n        return turns - 1\r\n    elif user_liczba < komp_liczba:\r\n        print(f'Podałeś {user_liczba} - Twoja liczba jest za mała')\r\n        return turns - 1\r\n    else:\r\n        print('***  Zgadłeś, You win !!!!  ***')\r\n\r\ndef set_difficulty():\r\n    level = input('Jaki poziom trudności wybierasz? easy or hard ')\r\n    if level.lower() == 'easy':\r\n        return EASY_LEVEL\r\n    else:\r\n        return HARD_LEVEL\r\n\r\ndef game():\r\n    print(logo)\r\n    print('Welcome to the Number Guessing Game')\r\n    print(\"'I'm thinking of a number between 1 and 100\")\r\n    komp_liczba = randint(1,100)\r\n    print(f'Psss, The correct answer is: {komp_liczba}')\r\n\r\n    turns = set_difficulty()\r\n    print(f'You have {turns} tries')\r\n\r\n    user_liczba = 0\r\n    while user_liczba != komp_liczba:\r\n\r\n        user_liczba = int(input('Podaj swoją liczbę 1-100: '))\r\n        turns = check_answer(komp_liczba, user_liczba, turns)\r\n        if turns == 0:\r\n            print('You have run out of liczba, you lose ')\r\n            return\r\n        elif user_liczba != komp_liczba:\r\n            print('Play again')\r\n\r\ngame()\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_projekty/podstawowy/zgadywanka_liczb/zgadywanka.py b/Python_projekty/podstawowy/zgadywanka_liczb/zgadywanka.py
+--- a/Python_projekty/podstawowy/zgadywanka_liczb/zgadywanka.py	(revision 19eba9f3b880b4953c5e96dda740206e7e978b05)
++++ b/Python_projekty/podstawowy/zgadywanka_liczb/zgadywanka.py	(date 1673697937298)
+@@ -28,7 +28,7 @@
+     print('Welcome to the Number Guessing Game')
+     print("'I'm thinking of a number between 1 and 100")
+     komp_liczba = randint(1,100)
+-    print(f'Psss, The correct answer is: {komp_liczba}')
++    # print(f'Psss, The correct answer is: {komp_liczba}')
+ 
+     turns = set_difficulty()
+     print(f'You have {turns} tries')
+Index: Python_szkolenie/.idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/.idea/inspectionProfiles/profiles_settings.xml b/Python_szkolenie/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1673273179645)
++++ b/Python_szkolenie/.idea/inspectionProfiles/profiles_settings.xml	(date 1673273179645)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/cwiczenia_debugging.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/cwiczenia_debugging.py b/Python_szkolenie/podstawy/cwiczenia_debugging.py
+new file mode 100644
+--- /dev/null	(date 1673701320263)
++++ b/Python_szkolenie/podstawy/cwiczenia_debugging.py	(date 1673701320263)
+@@ -0,0 +1,50 @@
++
++# zadanie nr 1
++number = int(input('Which numbers do you want to check?  '))
++if number % 2 == 0:
++    print('Ta liczba jest parzysta')
++else:
++    print('Ta liczba jest nie parzysta')
++
++# jeden znak "=" --> to przypisanie
++# dwa znaki "==" --> to porównanie
++
++# zadanie nr 2
++year = int(input("Which year do you want to check?"))
++
++if year % 4 == 0:
++    if year % 100 == 0:
++        if year % 400 == 0:
++            print("Leap year.")
++        else:
++            print("Not leap year.")
++    else:
++        print("Leap year.")
++else:
++    print("Not leap year.")
++
++
++# zadanie nr 3
++# elif zastąpi liczbę
++# if pozostawi liczbę i doda printa
++
++for number in range(1, 101):
++    if number % 3 == 0 and number % 5 == 0:
++        print("FizzBuzz")
++    elif number % 3 == 0:
++        print("Fizz")
++    elif number % 5 == 0:
++        print("Buzz")
++    else:
++        print(number)
++
++# wersja if
++for number in range(1, 101):
++    if number % 3 == 0 and number % 5 == 0:
++        print("FizzBuzz")
++    if number % 3 == 0:
++        print("Fizz")
++    if number % 5 == 0:
++        print("Buzz")
++    else:
++        print(number)
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/listy_slowniki.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/listy_slowniki.py b/Python_szkolenie/podstawy/listy_slowniki.py
+new file mode 100644
+--- /dev/null	(date 1673374374224)
++++ b/Python_szkolenie/podstawy/listy_slowniki.py	(date 1673374374224)
+@@ -0,0 +1,49 @@
++# zagnieżdżanie
++# {key:[list], key:{dict}} --> zagnieżdżenie listy w słowniku
++from typing import Dict, List
++
++capitals = {
++    'France': 'Paris',
++    'Germany': 'Berlin'
++}
++
++travel_log = {
++    'France': ['Paris', 'Dijon', 'Lille'],  # nie mogę w zwykłym kluczu podać kilka wartości dlatego lista jest lepsza
++    'Germany': ['Berlin', 'Hamburg', 'Stuttgard']
++}
++
++# lista = ['A', 'B'['C', 'D' ['G', 'H']]] --> zagniedżone listy
++
++travel_log2 = {
++    'France': {'city_visited': ['Paris', 'Dijon', 'Lille'], 'total_visits': 12},
++    'Germany': {'city_visited': ['Berlin', 'Hamburg', 'Stuttgard']}
++}
++
++# zagnieżdżenie słownika w liście
++# [{key:[list], key2:{dict}},{key:value, key2:value}]
++
++travel_log3 = [
++    {'country': 'France',
++     'city_visited': ['Paris', 'Dijon', 'Lille'],
++     'total_visits': 12
++     },
++
++    {'country': 'Germany',
++     'city_visited': ['Berlin', 'Hamburg', 'Stuttgard'],
++     'total_visits': 5
++     }
++]
++
++print(travel_log3)
++
++# Russia, Moscow, Saint Petersburg, total_visited 2
++
++def add_new_country(country_visited, times_visited, cities_visited):
++    new_country = {}
++    new_country['country'] = country_visited
++    new_country['city_visited'] = cities_visited
++    new_country['total_visits'] = times_visited
++    travel_log3.append(new_country)
++
++add_new_country('Russia', 2, ['Moscow', 'Saint Petersburg'])
++print(travel_log3)
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1672917097312)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1672917097312)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1672917097205)
++++ b/.idea/misc.xml	(date 1672917097205)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/slownik.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/slownik.py b/Python_szkolenie/podstawy/slownik.py
+new file mode 100644
+--- /dev/null	(date 1673345398669)
++++ b/Python_szkolenie/podstawy/slownik.py	(date 1673345398669)
+@@ -0,0 +1,56 @@
++
++programming_dictionary = {'Bug': 'An error in a program that prevents the program from running as expected.',
++                          'Function': 'A piece of code that you can easily call over and over again.',
++                          'Loop': 'Dodajemy kolejną wratość i klucz',
++                          123: 'Slownik liczbowy'
++}
++
++print(programming_dictionary[123]) # bez '' bo liczba
++programming_dictionary['dodaj'] = 'Nowy element slownika'
++print(programming_dictionary)
++
++pusty_slownik = {}
++pusty_slownik['nowy_element'] = 'pierwszy wpis'
++print(pusty_slownik)
++print(pusty_slownik['nowy_element'])
++programming_dictionary = {}
++print(programming_dictionary) # pusty
++programming_dictionary['Bug'] = 'Ćma w moim kompie'
++print(programming_dictionary) # sprawdza czy pod kluczem jest wartość, jak nie to dopisuje
++
++for t in programming_dictionary:
++    print(f'To jest element "{t}"')
++
++for key in programming_dictionary:
++    print(key)
++    print(programming_dictionary[key])
++
++
++# zadanie --> program do oceniania
++
++students_score = {
++    'Harry': 81,
++    'Ron': 78,
++    'Hermione': 99,
++    'Draco': 74,
++    'Neville': 62
++}
++
++# konwersja 91-100:wybitny, 81-90:przekracza wymagania, 71-80:akceptowalne, poniżej 70:niedostatecznie
++
++student_grades = {}
++
++for student in students_score:
++    score = students_score[student]
++    if score >= 91 and score <= 100:
++        student_grades[student] = 'wybitny'
++    elif score >= 81 and score <= 90:
++        student_grades[student] = 'przekracza wymagania'
++    elif score >= 71 and score <= 80:
++        student_grades[student] = 'akceptowalna'
++    elif score < 70:
++        student_grades[student] = 'niedostatecznie'
++
++
++print(student_grades)
++
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1672917097444)
++++ b/.idea/.gitignore	(date 1672917097444)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: Python_szkolenie/podstawy/while_and_funkcje.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/while_and_funkcje.py b/Python_szkolenie/podstawy/while_and_funkcje.py
+new file mode 100644
+--- /dev/null	(date 1673213188793)
++++ b/Python_szkolenie/podstawy/while_and_funkcje.py	(date 1673213188793)
+@@ -0,0 +1,52 @@
++import math
++
++for c in range(1, 10):
++    print(c)
++
++number = 6
++while number > 0:
++    number -= 1
++    print(number)
++
++# https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json
++def my_function():
++    print('Hello')
++    print('Bye')
++
++my_function()
++
++def greet_with_name(name):
++    print(f'Hello {name}')
++    print(f'How do you do {name}')
++
++name = 'Jack'
++greet_with_name(name)
++
++name = 'Angela'
++greet_with_name(name)
++
++# funkcja z wiecej niż jednym input
++def greet_multi(name, location):
++    print(f'Hello {name}')
++    print(f'You are from {location} ?')
++
++greet_multi(name='Jacek', location='Gorzów')
++
++# puszka --> 5 m kw farby
++# wysokość --> h
++# szerokość --> w
++# Ile puszek potrzebuję
++
++h = float(input('Jaka jest wysokość ściany: '))
++w = float(input('Jaka jest szerokość ściany: '))
++p = 5
++
++def ilosc_farby(h, w):
++    i1 = (h * w) / p
++    i = math.ceil((h * w) / p) # zaokrągla do 5
++    print(i1)
++    print(f'Potrzebne jest {round(i,2)} puszek')
++
++ilosc_farby(h, w)
++
++
+Index: Python_szkolenie/podstawy/petla_range.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/petla_range.py b/Python_szkolenie/podstawy/petla_range.py
+new file mode 100644
+--- /dev/null	(date 1672937560010)
++++ b/Python_szkolenie/podstawy/petla_range.py	(date 1672937560010)
+@@ -0,0 +1,23 @@
++# pętla for z zakresem range(1,100,...)
++
++for number in range(1,11,3):
++    print(number)
++
++total = 0
++for number2 in range(1,101):
++    total += number2
++print(total)
++
++# zadanie --> oblicz sumę licz parzystych od 1 do 100
++
++total_parzyste = 0
++for number3 in range(1,101):
++    if number3 % 2 == 0:
++        total_parzyste += number3
++print(total_parzyste)
++
++total_parzyste2 = 0
++for number4 in range(2,101,2):
++    total_parzyste2 += number4
++print(total_parzyste2)
++
+Index: Python_szkolenie/podstawy/typy_danych.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/typy_danych.py b/Python_szkolenie/podstawy/typy_danych.py
+new file mode 100644
+--- /dev/null	(date 1672405013737)
++++ b/Python_szkolenie/podstawy/typy_danych.py	(date 1672405013737)
+@@ -0,0 +1,24 @@
++
++print('Hello'[0])       # H
++print('Hello'[4])       # o
++print(('123'+'456'))    # 123456
++print(123+456)          # 579
++print(123_456_789)      # 123456789
++
++name = len(input('What your name? '))
++print(f'Your name have {name} characters')
++
++a = 123
++print(type(a))  # <class 'int'>
++a = str(123)
++print(type(a))  # <class 'str'>
++a = float(123)
++print(type(a))
++
++print(70 + float(100.5))    # 170.5
++print(str(70)+str(100))     # 70100
++
++# Zadanie
++number = input('Podaj liczbę ')
++print((int(number[0])+int(number[1])))
++
+Index: Python_szkolenie/podstawy/listy.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/listy.py b/Python_szkolenie/podstawy/listy.py
+new file mode 100644
+--- /dev/null	(date 1672853167965)
++++ b/Python_szkolenie/podstawy/listy.py	(date 1672853167965)
+@@ -0,0 +1,33 @@
++
++state_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland", "South Carolina",
++                    "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", 
++                    "Louisiana", "Indiana", "Mississippi", "Illinois", "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", 
++                    "Texas", "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", 
++                    "Colorado", "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico",
++                    "Arizona", "Alaska", "Hawaii"]
++
++print(state_of_america[0])  # Delaware
++state = state_of_america[2]
++print(state)                # New Jersey
++print(state_of_america[-1]) # Hawaii
++# state_of_america[1] = 'Pensilvania' # "Pennsylvania" --> zmiana nazwy
++# state_of_america.append('Hawaii2')  # dodajemy na końcu listy
++# state_of_america.extend(['Jackland', 'Elaland'])
++# print(state_of_america)
++
++# błąd index-u
++print(len(state_of_america)) # 50
++print(state_of_america[49])
++#print(state_of_america[50]) # błąd
++# lub
++number_states = len(state_of_america)
++#print(state_of_america[number_states]) # błąd index-u
++print(state_of_america[number_states-1]) # naprawiony
++
++
++#brudne_warzywa = ['Strawberries', 'Spinach', 'Kale', 'Nectarines', 'Apples', 'Grapes', 'Peaches', 'Cherries', 'Pears', 'Tomatoes', 'Celery', 'Potatoes']
++owoce = ['Strawberries', 'Spinach', 'Kale', 'Nectarines', 'Apples', 'Grapes', 'Peaches']
++warzywa = ['Cherries', 'Pears', 'Tomatoes', 'Celery', 'Potatoes']
++brudne_warzywa = [owoce, warzywa]
++print(brudne_warzywa)
++print(brudne_warzywa[0][2]) # Kale
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1672917097110)
++++ b/.idea/modules.xml	(date 1672917097110)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Python_100.iml" filepath="$PROJECT_DIR$/.idea/Python_100.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/petle.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/petle.py b/Python_szkolenie/podstawy/petle.py
+new file mode 100644
+--- /dev/null	(date 1672935609571)
++++ b/Python_szkolenie/podstawy/petle.py	(date 1672935609571)
+@@ -0,0 +1,66 @@
++
++fruits = ['Apple', 'Orange', 'Pear'] # Jabłko, Pamarańcza, Gruszka
++
++for f in fruits:
++    print(f)
++    print(f + ' ' + 'Pie')
++print(fruits)
++
++# zadanie
++
++student_heights = input('Input a student height. ').split(',')
++for n in range(0, len(student_heights)):
++    student_heights[n] = float(student_heights[n])
++print(student_heights)
++# 165, 173, 189, 169, 146
++avg = round((sum(student_heights)/len(student_heights)),2)
++print(avg)  # 168
++
++
++# zadanie II sposób --> za pomocą pętli for
++
++student_heights = input('Input a student height. ').split(',')
++for n in range(0, len(student_heights)):
++    student_heights[n] = float(student_heights[n])
++print(student_heights)
++# 180, 124, 165, 173, 189, 169, 146
++sum_student = 0
++for s in student_heights:
++    sum_student += s
++print(sum_student)
++
++number_of_students = 0
++for n in student_heights:
++    number_of_students += 1
++print(number_of_students)
++
++avg = round((sum_student)/(number_of_students),2)
++print(avg)
++
++
++# zadanie nr 3 --> najwyższa wartość na liście przy pomocy pętli for
++
++student_scores = input('Input a student height. ').split(',')
++# 78, 65, 89, 86, 55, 91, 64, 89
++for n in range(0, len(student_scores)):
++    student_scores[n] = int(student_scores[n])
++print(student_scores)
++print(max(student_scores))
++print(min(student_scores))
++
++# znajdź wartość max przy pomocy pętli for
++for m in student_scores:
++    if m > student_scores[len(student_scores)-1]:
++        print(f'Max liczba na liście to {m}')
++        print(student_scores)
++
++# II sposób
++h_score = 0
++for m in student_scores:
++    if m > h_score:
++        h_score = m
++print(f'Max liczba na liście to {h_score}')
++
++
++
++
+Index: .idea/Python_100.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Python_100.iml b/.idea/Python_100.iml
+new file mode 100644
+--- /dev/null	(date 1673301544993)
++++ b/.idea/Python_100.iml	(date 1673301544993)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/podstawy.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/podstawy.py b/Python_szkolenie/podstawy/podstawy.py
+new file mode 100644
+--- /dev/null	(date 1672323548344)
++++ b/Python_szkolenie/podstawy/podstawy.py	(date 1672323548344)
+@@ -0,0 +1,39 @@
++
++print('Jack')
++print('Jack')
++print('Jack')
++
++print('Jack\nJack\nJack')
++
++print('Hello'+' '+'Jack')
++
++print('Hello' + ' ' + input('Jak masz na imię?: '))  # bez stosowania zmiennej
++# ctrl / --> hashtag
++
++# zadanie ile znaków jest w wprowadzonym słowie
++
++print(len(input('What is your name? ')))
++print('Ilość znaków to: ' +''+ str(len(input('What is your name? '))))
++      
++name = input('What is your name? ')
++length = len(name)
++print(length)
++
++# zadanie
++
++a = input('wprowadź a: ')
++b = input('wprowadź b: ')
++
++a1 = b
++b1 = a
++a = a1
++b = b1 
++
++print('a = ' + a)
++print('b = ' + b)
++
++# zadanie 
++print('Witaj w "Generator nazw"')
++nazwa_miasta = input('Podaj nazwę miasta:\n')
++nazwa_zwierzaka = input('Podaj nazwę zwierzaka:\n')
++print(f'Twój zespół nazywa się: {nazwa_miasta} {nazwa_zwierzaka}')
+Index: Python_szkolenie/podstawy/scope_global.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/scope_global.py b/Python_szkolenie/podstawy/scope_global.py
+new file mode 100644
+--- /dev/null	(date 1673608913610)
++++ b/Python_szkolenie/podstawy/scope_global.py	(date 1673608913610)
+@@ -0,0 +1,69 @@
++
++# local scope --> dostęp tylko w ramach funkcji
++def drink_potion():
++    potion_strength = 2
++    print(potion_strength)
++
++drink_potion()
++# print(potion) --> błąd
++
++# global scope
++player_health = 10
++
++def game():
++    def drink_potion():
++        potion_strength = 2
++        print(player_health)
++
++    drink_potion()
++
++print(player_health)
++game()
++
++# in Python is no Block Scope
++
++if 3 > 2:
++    a = 10  # ta zmienna ma nadal zasięg global
++
++
++game_level = 3
++enemies2 = ['Skeleton', 'Zombie', 'Alien']
++
++def create_enemy():
++    if game_level < 5:
++        new_enemy = enemies2[0]
++    print(new_enemy)
++
++# print(new_enemy) # do póki jest w pętli jest dostęp do zmiennej, ale utworzeniu funkcji do zmiennej poza def nie ma dostepu
++create_enemy()
++
++# global scope
++# nie robimy aby obie zmienne miały taką samą nazwę --> do celów nauki
++# staramy się nie modyfikować zasięgu globalnego --> powoduje sporo błędów
++
++enemies = 1
++
++def increase_enemies():
++    global enemies
++    enemies += 1
++    print(f'enemies w środku funkcji {enemies}')
++
++increase_enemies()
++print(f'enemies na zewnątrz funkcji {enemies}')
++
++# możemy to zastąpić zapisem
++
++enemies = 1
++def increase_enemies():
++    print(f'enemies w środku funkcji {enemies}')
++    return + 1
++
++enemies = increase_enemies()
++print(f'enemies na zewnątrz funkcji {enemies}')
++
++# global Constans - używamy gdy definiujemy stałe --> zdefiniuję i nigdy nie zmieniam - oznaczamy zmienną dużymi literami np. URL
++
++PI = 3.14159
++URL = 'www.google.com'
++TWITTER_HANDLE = '@yu_angela'
++
+Index: Python_szkolenie/podstawy/warunkowe.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/warunkowe.py b/Python_szkolenie/podstawy/warunkowe.py
+new file mode 100644
+--- /dev/null	(date 1672756171634)
++++ b/Python_szkolenie/podstawy/warunkowe.py	(date 1672756171634)
+@@ -0,0 +1,59 @@
++
++wzrost = int(input('Jaki masz wzrost w cm? '))
++
++if wzrost >= 120:
++    print('Możesz jechać')
++else:
++    print('Nie spałniasz warunku')
++        
++# zadanie czy liczba jest nieparzysta
++
++number = int(input('Wprowadź liczbę: '))
++
++if number % 2 == 0:
++    print('Liczba jest parzysta')
++else:
++    print('Liczba jest nieparzysta')    
++
++# zadanie 18 lat --> płaci 12, równo lub mniej płaci 5, 12-18 --> 7
++wzrost = int(input('Jaki masz wzrost w cm? '))
++age = int(input('Ile masz lat? '))    
++
++if wzrost >= 120:
++    print('Możesz jechać')
++    if age >= 18:
++        print('Cena biletu wynosi 12')
++    elif age >= 12 and age <= 18:
++        print('Cena biletu wynosi 7')        
++    else:
++        print('Cena biletu wynosi 5')
++else:
++    print('Nie spałniasz warunku')    
++
++# if --> elif --> else - wykona pierwszy prawdziwy warunek i reszty nie sprawdza
++# if --> if --> if --> if - sprawdza kolejne warunki wszystkie i jeżeli są prawdziwe wszystkie wykona
++
++wzrost = int(input('Jaki masz wzrost w cm? '))
++age = int(input('Ile masz lat? '))    
++bill = 0 # rachunek
++
++if wzrost >= 120:
++    print('Możesz jechać')
++    if age < 12:
++        bill = 5
++        print('Cena biletu wynosi 5')
++    elif age <= 18:
++        bill = 7
++        print('Cena biletu wynosi 7')        
++    else:
++        bill = 12
++        print('Cena biletu wynosi 12')
++    
++    photo = input('Do you want a photo taken? Y or N. ')
++    if photo == 'Y':
++        bill += 3
++        
++    print(f'Twój rachunek wynosi: {bill}')
++    
++else:
++    print('Nie spełniasz warunku') 
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/modul_random.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/modul_random.py b/Python_szkolenie/podstawy/modul_random.py
+new file mode 100644
+--- /dev/null	(date 1672768850610)
++++ b/Python_szkolenie/podstawy/modul_random.py	(date 1672768850610)
+@@ -0,0 +1,26 @@
++import random
++
++# randrange(start, stop, step)
++# randint(a, b) 
++# random.random(0.0,1.0) zmiennoprzecinkowe
++
++
++liczba = random.randint(1,10) # liczba całkowita
++print(liczba)
++
++liczba_float = random.random() # od 0.0 do 1.0
++print(liczba_float)
++
++liczba_float2 = liczba_float * 5 # 0.000 - 4.999
++print(liczba_float2)
++
++# zadanie reszka orzeł
++
++x = random.randint(0,1)
++
++print('Rzuć monetą')
++
++if x == 0:
++    print('Wypadła reszka')
++elif x == 1:
++    print('Wypadł orzełek')   
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/operatory.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/operatory.py b/Python_szkolenie/podstawy/operatory.py
+new file mode 100644
+--- /dev/null	(date 1672662847473)
++++ b/Python_szkolenie/podstawy/operatory.py	(date 1672662847473)
+@@ -0,0 +1,39 @@
++
++3 + 5
++7 - 4
++3 * 2
++6 / 3
++2 ** 3
++# kolejność
++# (), **, * /, + -
++print(3 * 3 + 3 / 3 - 3) # 7.0 --> mnoży 9, dodaje 1, odejmuje 3
++
++# zaokrąglenie
++print(8/3)          # 2.6666666666666665
++print(int(8/3))     # 2
++print(round(8/3))   # 3
++print(round(8/3,2))   # 2.67
++
++print(8//3)         # 2
++print(type(8//3))   # <class 'int'>
++print(type(8/3))    # <class 'float'>
++
++score = 0
++score += 1
++score -= 1
++score *= 1
++score /= 1
++
++# zadanie - 52 tygodnie, 365 dni 12 miesięcy --> końcowy wiek 90 lat
++
++age = input('What is your current age?: ')
++y = 90 - (int(age))
++w = y * 52
++m = y * 12
++d = y * 365
++
++print(f'Pozostało {y} lat, {round(w,2)} tygodni, {round(m,2)} miesięcy i {round(d,2)} dni')
++
++
++
++
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1673426632118)
++++ b/.idea/vcs.xml	(date 1673426632118)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Python_szkolenie/podstawy/funkcje.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python_szkolenie/podstawy/funkcje.py b/Python_szkolenie/podstawy/funkcje.py
+new file mode 100644
+--- /dev/null	(date 1673433290958)
++++ b/Python_szkolenie/podstawy/funkcje.py	(date 1673433290958)
+@@ -0,0 +1,22 @@
++# functions with outputs
++
++def format_name(f_name, l_name):
++    """Podane imię i nazwisko zwraca przeformatowane na lower(),
++       capitalize(), upper() i title()"""
++    if f_name == '' or l_name == '':
++        return 'Nic nie wpisałeś'
++    imie = f_name.lower()
++    nazwisko = l_name.lower()
++    imie2 = f_name.capitalize()
++    nazwisko2 = l_name.capitalize()
++    imie3 = f_name.upper()
++    nazwisko3 = l_name.upper()
++    imie4 = f_name.title()
++    nazwisko4 = l_name.title()
++    return f'małe litery {imie} {nazwisko}\ncapitalize: {imie2} {nazwisko2}\nduże litery: {imie3} {nazwisko3}\ntytuł: {imie4} {nazwisko4}'
++
++
++format = format_name('JACEK', 'Stachowiak')
++format2 = format_name(input('What is your name? '), input('What is your last name? '))
++print(format)
++print(format2)
+Index: .idea/git_toolbox_prj.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/git_toolbox_prj.xml b/.idea/git_toolbox_prj.xml
+new file mode 100644
+--- /dev/null	(date 1673432443928)
++++ b/.idea/git_toolbox_prj.xml	(date 1673432443928)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GitToolBoxProjectSettings">
++    <option name="commitMessageIssueKeyValidationOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++    <option name="commitMessageValidationEnabledOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/Python_szkolenie/.idea/.gitignore b/Python_szkolenie/.idea/.gitignore
+new file mode 100644
