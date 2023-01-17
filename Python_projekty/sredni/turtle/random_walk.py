@@ -5,7 +5,7 @@ import random
 jack = Turtle()
 turtle.colormode(255)
 
-#colors = ["red", "green", "orange", "blue", "black", "brown", "CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+# colors = ["red", "green", "orange", "blue", "black", "brown", "CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
 # listę kolorów mozemy zastapić losowymi RGB od 0 do 255
 
 def random_color():
@@ -17,10 +17,10 @@ def random_color():
 
 directions = [0, 90, 180, 270]
 jack.pensize(15)
-jack.speed('fast')    #jack.speed(10)   # 0-fastest, 10-fast, 6-normal, 3-slow, 1-slowest
+jack.speed('fast')    # jack.speed(10)   # 0-fastest, 10-fast, 6-normal, 3-slow, 1-slowest
 
 for _ in range(200):
-    jack.color(random_color())  #zamiast --> jack.color(random.choice(colors))
+    jack.color(random_color())  # zamiast --> jack.color(random.choice(colors))
     jack.forward(25)
     jack.setheading(random.choice(directions))
 
