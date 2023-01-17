@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - quiz">
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/turtle/challenge1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/turtle/challenge2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/turtle/challenge3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/turtle/random_walk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/importy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/modele_turtle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/quiz/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/quiz/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/quiz/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/question_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/quiz/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/quiz_brain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673950787445</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new project - quiz">
+      <created>1673962159241</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962159241</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
