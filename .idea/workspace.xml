@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="nowy project program sterujący ekspresem do kawy">
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="coffee machine zmodyfikowana obiektowo na class">
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/quiz/quiz_brain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/klasy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/ekspres_do_kawy/ekspres.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/ekspres_do_kawy/ekspres.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="b63dad41-e08e-4303-bafb-6e3cf2a8874a" />
-        <option name="url" value="https://github.com/JacekStachowiak/Python_100.git" />
+        <option name="url" value="https://github.com/JacekStachowiak/Project_100.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -51,17 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/Git_projekty/Python_100&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "H:/Git_projekty/Python_100",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_100" is-module-sdk="true">
@@ -233,7 +237,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673807496150</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="nowy project program sterujący ekspresem do kawy">
+      <created>1673812068390</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673812068390</updated>
+    </task>
+    <task id="LOCAL-00019" summary="nowy project program sterujący ekspresem do kawy">
+      <created>1673817524837</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673817524837</updated>
+    </task>
+    <task id="LOCAL-00020" summary="coffee machine zmodyfikowana obiektowo na class">
+      <created>1673886508832</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673886508832</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +301,7 @@
     <MESSAGE value="druga wersja zgadywanki" />
     <MESSAGE value="nowy projekt higher/lower" />
     <MESSAGE value="nowy project program sterujący ekspresem do kawy" />
-    <option name="LAST_COMMIT_MESSAGE" value="nowy project program sterujący ekspresem do kawy" />
+    <MESSAGE value="coffee machine zmodyfikowana obiektowo na class" />
+    <option name="LAST_COMMIT_MESSAGE" value="coffee machine zmodyfikowana obiektowo na class" />
   </component>
 </project>
