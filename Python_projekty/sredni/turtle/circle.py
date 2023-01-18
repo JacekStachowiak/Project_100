@@ -21,7 +21,7 @@ def spirograph(size_of_gap):
         jack.setheading(jack.heading() + size_of_gap)
         jack.circle(100)
 
-spirograph(4)
+spirograph(5)
 
 screen = Screen()
 screen.exitonclick()
