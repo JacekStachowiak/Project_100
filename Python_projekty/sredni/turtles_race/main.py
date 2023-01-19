@@ -23,6 +23,7 @@ meta.hideturtle()
 
 for t_index in range(0, 6):
     new_turtles = Turtle(shape='turtle')
+    new_turtles.shapesize(stretch_len=1, stretch_wid=1)
     new_turtles.color(colors[t_index])
     new_turtles.penup()
     new_turtles.goto(x=-230, y=y_position[t_index])
