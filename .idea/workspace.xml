@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - quiz">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jacek.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/snake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/podstawy/slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/klasy_dziedziczenie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/turtles_race/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/turtles_race/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - quiz" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -319,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674059253235</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="new project - quiz">
+      <created>1674132527593</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674132527593</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
