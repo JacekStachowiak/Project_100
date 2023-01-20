@@ -34,6 +34,7 @@ class Snake:
         self.create_snake()
         self.head = self.segments[0]
 
+
     def extend(self):
         """add new segment to the snake"""
         self.add_segment(self.segments[-1].position())
