@@ -9,19 +9,19 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.l_score = 0
         self.r_score = 0
-        self.update_scoreboard()
+        # self.update_scoreboard()
 
-    def update_scoreboard(self):
+    def update_scoreboard(self, pos_x, pos_y, pos_x2, pos_y2):
         self.clear()
-        self.goto(-100 , 200)
-        self.write(self.l_score , align='center' , font=('Courier' , 80 , 'normal'))
-        self.goto(100 , 200)
-        self.write(self.r_score , align='center' , font=('Courier' , 80 , 'normal'))
+        self.goto(pos_x, pos_y)
+        self.write(self.l_score, align='center', font=('Courier', 60, 'normal'))
+        self.goto(pos_x2, pos_y2)
+        self.write(self.r_score, align='center', font=('Courier', 60, 'normal'))
 
-    def l_point(self):
+    def l_point(self, pos_x, pos_y, pos_x2, pos_y2):
         self.l_score += 1
-        self.update_scoreboard()
+        self.update_scoreboard(pos_x, pos_y, pos_x2, pos_y2)
 
-    def r_point(self):
+    def r_point(self, pos_x, pos_y, pos_x2, pos_y2):
         self.r_score += 1
-        self.update_scoreboard()
+        self.update_scoreboard(pos_x, pos_y, pos_x2, pos_y2)
