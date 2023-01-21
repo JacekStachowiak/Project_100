@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku">
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/path_sciezki.py" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project --&gt; invited">
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Pandas_learning/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Pandas_learning/main_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Pandas_learning/weather_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -386,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674233258375</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="new project --&gt; invited">
+      <created>1674302807095</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674302807095</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +445,8 @@
     <MESSAGE value="new project - cross road" />
     <MESSAGE value="modyfikacja snake scoreboard - dodanie high score" />
     <MESSAGE value="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku" />
-    <option name="LAST_COMMIT_MESSAGE" value="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku" />
+    <MESSAGE value="new project --&gt; invited" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project --&gt; invited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
