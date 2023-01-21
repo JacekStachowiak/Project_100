@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="modyfikacja snake scoreboard - dodanie high score">
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Files/my_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Files/new_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Files/pliki_files.py" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku">
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/path_sciezki.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/snake/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/snake/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/snake/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_szkolenie/sredni/pliki_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/snake/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +60,7 @@
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;H:/Git_projekty/Python_100&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="PyConsoleOptionsProvider">
@@ -385,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674225086420</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku">
+      <created>1674233258375</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674233258375</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,7 +435,8 @@
     <MESSAGE value="modyfikacje" />
     <MESSAGE value="new project - cross road" />
     <MESSAGE value="modyfikacja snake scoreboard - dodanie high score" />
-    <option name="LAST_COMMIT_MESSAGE" value="modyfikacja snake scoreboard - dodanie high score" />
+    <MESSAGE value="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku" />
+    <option name="LAST_COMMIT_MESSAGE" value="modyfikacja snake scoreboard - dodanie pliku data.txt i zapis do niego wyniku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
