@@ -20,6 +20,16 @@ while len(list_states) < 50:
 
     answer_state = screen.textinput(title=f'{len(list_states)}/50 States Correct',
                                     prompt="What's another state's name?").title()
+    if answer_state == 'Exit':
+        # missing_state = []
+        # for state in all_state:
+        #     if state not in list_states:
+        #         missing_state.append(state)
+        missing_state = [state for state in all_state if state not in list_states]
+
+        new_data = pd.DataFrame(missing_state)
+        new_data.to_csv('state_to_learn.csv')
+        break
 
     if answer_state in all_state:
         list_states.append(answer_state)
@@ -34,6 +44,5 @@ while len(list_states) < 50:
         # t.write(state_data.state.item())    # bez śmieci
 
 
-
-screen.mainloop()
+# screen.mainloop()
 # screen.exitonclick()
