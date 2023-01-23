@@ -33,7 +33,7 @@ print(input.get())
 input.insert(END, string="Some text to begin with.")
 #Gets text in entry
 print(input.get())
-input.grid(column=3, row=6)
+input.grid(column=2, row=6)
 
 
 #Text
