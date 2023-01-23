@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - Quiz USA">
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz Poland/baza_miasta_woj.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz_USA/us-states-game-start/state_to_learn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_comprehension/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_comprehension/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_comprehension/listy_skladana.py" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="modyfikacja kodu quiz USA --&gt; zmiana 4 linii for/if na 1 comprehension.">
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_and_dict_comprehension/dictionary_comprehension.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz Poland/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz Poland/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz Poland/wojewodztwa_miasta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz Poland/zamki.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz_USA/us-states-game-start/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Panda_project/Quiz_USA/us-states-game-start/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_comprehension/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_and_dict_comprehension/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_comprehension/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_and_dict_comprehension/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_comprehension/listy_skladana.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/listy_and_dict_comprehension/listy_skladana.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;H:/Git_projekty/Python_100&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="PyConsoleOptionsProvider">
@@ -415,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674386531161</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="modyfikacja kodu quiz USA --&gt; zmiana 4 linii for/if na 1 comprehension.">
+      <created>1674414458807</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1674414458807</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,7 +470,8 @@
     <MESSAGE value="new project --&gt; invited" />
     <MESSAGE value="new project --&gt; pandas wiewiorki w CP in NY" />
     <MESSAGE value="new project - Quiz USA" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project - Quiz USA" />
+    <MESSAGE value="modyfikacja kodu quiz USA --&gt; zmiana 4 linii for/if na 1 comprehension." />
+    <option name="LAST_COMMIT_MESSAGE" value="modyfikacja kodu quiz USA --&gt; zmiana 4 linii for/if na 1 comprehension." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
