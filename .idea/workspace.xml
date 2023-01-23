@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - tkinter learning">
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Tkinter_converter/converter_mile_km.py" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - tkinter converter miles/km">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_szkolenie/sredni/TKinter/tkinter_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/TKinter/tkinter_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Tkinter_converter/converter_mile_km.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Tkinter_converter/converter_mile_km.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674489373888</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new project - tkinter converter miles/km">
+      <created>1674495756682</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1674495756682</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +510,8 @@
     <MESSAGE value="comprehension --&gt; dopisanie zadań." />
     <MESSAGE value="new project - alphabet Nato" />
     <MESSAGE value="new project - tkinter learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project - tkinter learning" />
+    <MESSAGE value="new project - tkinter converter miles/km" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project - tkinter converter miles/km" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
