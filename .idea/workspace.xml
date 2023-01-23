@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="comprehension --&gt; dopisanie zadań.">
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Alphabet_NATO/NATO-alphabet-start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Alphabet_NATO/NATO-alphabet-start/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Pandas_learning/petle_panda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/NATO-alphabet-start.zip" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="new project - alphabet Nato">
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/TKinter/tkinter_learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/function/argumenty_funkcji_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/function/argumenty_funkcji_kwargs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_szkolenie/sredni/funkcje_wyzszego_rzedu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/function/funkcje_wyzszego_rzedu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +86,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Git_projekty\Python_100\Python_szkolenie\sredni\function" />
       <recent name="H:\Git_projekty\Python_100\Python_szkolenie\sredni\listy_comprehension" />
       <recent name="H:\Git_projekty\Python_100\Python_projekty\sredni\Panda_project\wiewiorki" />
       <recent name="H:\Git_projekty\Python_100\Python_szkolenie\sredni\Files" />
       <recent name="H:\Git_projekty\Python_100\Python_projekty\sredni\obraz Hirst" />
-      <recent name="H:\Git_projekty\Python_100\Python_projekty\podstawowy\przestepny" />
     </key>
   </component>
   <component name="RunManager">
@@ -434,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674464892225</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="new project - alphabet Nato">
+      <created>1674470307849</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674470307849</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +497,8 @@
     <MESSAGE value="new project - Quiz USA" />
     <MESSAGE value="modyfikacja kodu quiz USA --&gt; zmiana 4 linii for/if na 1 comprehension." />
     <MESSAGE value="comprehension --&gt; dopisanie zadań." />
-    <option name="LAST_COMMIT_MESSAGE" value="comprehension --&gt; dopisanie zadań." />
+    <MESSAGE value="new project - alphabet Nato" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project - alphabet Nato" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
