@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="zakończenie projektu Pomodoro">
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/probka_join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Pomodoro/piaskownica.py" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="dodanie obsługi try/except do Alphabet Nato">
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/Kat_JSON/struktura_json.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pliki/Kraus Dawid.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/password-manager-start.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Pomodoro/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Pomodoro/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/generator_pass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/probka_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/probka_join.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/project_generator_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/project_generator_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Tkinter_converter/converter_mile_km.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Tkinter_converter/converter_mile_km.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Ju9JsEWAkq6ufwOjkBqF3FTYkH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -68,19 +69,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TODO_SCOPE": "All Places",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "H:/Git_projekty/Python_100/Python_projekty/sredni/Generator_password",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Git_projekty/Api/nbp.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_100" is-module-sdk="true">
@@ -161,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672917032148</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Modyfikacja funkcji days_in_month">
-      <created>1673432332463</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673432332463</updated>
     </task>
     <task id="LOCAL-00002" summary="New file calculator">
       <created>1673443388766</created>
@@ -484,7 +478,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674569826113</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="new project --&gt; generator password">
+      <created>1674596293357</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674596293357</updated>
+    </task>
+    <task id="LOCAL-00048" summary="modyfikacja pliku data.txt">
+      <created>1674634313604</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674634313604</updated>
+    </task>
+    <task id="LOCAL-00049" summary="zmiana nazwy pliku">
+      <created>1674634466702</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674634466702</updated>
+    </task>
+    <task id="LOCAL-00050" summary="dodanie obsługi try/except do Alphabet Nato">
+      <created>1674654298681</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674654298681</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,10 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Modyfikacja funkcji days_in_month" />
-    <MESSAGE value="New file calculator" />
-    <MESSAGE value="Modyfikacja - dodanie docstrings" />
-    <MESSAGE value="przemieszczenie plików do katalogów" />
     <MESSAGE value="druga wersja zgadywanki" />
     <MESSAGE value="nowy projekt higher/lower" />
     <MESSAGE value="nowy project program sterujący ekspresem do kawy" />
@@ -546,7 +564,11 @@
     <MESSAGE value="new project - dokończenie kodu" />
     <MESSAGE value="new project - Pomodoro" />
     <MESSAGE value="zakończenie projektu Pomodoro" />
-    <option name="LAST_COMMIT_MESSAGE" value="zakończenie projektu Pomodoro" />
+    <MESSAGE value="new project --&gt; generator password" />
+    <MESSAGE value="modyfikacja pliku data.txt" />
+    <MESSAGE value="zmiana nazwy pliku" />
+    <MESSAGE value="dodanie obsługi try/except do Alphabet Nato" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodanie obsługi try/except do Alphabet Nato" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
-from generator import gen_pass
-
+from generator_pass import gen_pass
+import json
 
 
 window = Tk()
@@ -17,17 +17,45 @@ def save():
     website = enter_website.get()
     email = enter_email.get()
     password = enter_password.get()
+    new_data = {
+        website: {
+            'email': email,
+            'password': password
+        }
+    }
 
     if len(website) == 0 or len(password) == 0:
         messagebox.showinfo(title='Oops', message='Pole website lub password nie może byc puste')
     else:
-        msg = messagebox.askokcancel(title=website, message=f'Wprowadziłeś:\n--> website: {website}\n--> email: {email}\n--> password: {password}\nAkceptujesz?')
+        try:
+            with open('data.json', 'r') as data_file:
+                data = json.load(data_file)
+        except FileNotFoundError:
+            print('Brak pliku --> tworzę nowy plik')
+            with open('data.json', 'w') as data_file:
+                json.dump(new_data, data_file, indent=4)
+        else:
+            data.update(new_data)
+            with open('data.json', 'w') as data_file:
+                json.dump(data, data_file, indent=4)
+        finally:
+            enter_website.delete(0, END)
+            enter_password.delete(0, END)
 
-        if msg:
-            with open('data_2.txt', 'a') as data:
-                data.write(f'{website} | {email} | {password}\n')
-                enter_website.delete(0, END)
-                enter_password.delete(0, END)
+def find_password():
+    web_text = enter_website.get().title()
+    try:
+        with open('data.json', 'r') as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title=Error, message='Nie znaleziono pliku' )
+    else:
+        if web_text in data:
+            email = data[web_text]["email"]
+            password = data[web_text]["password"]
+            messagebox.showinfo(title='Web', message=f'Twoje dane dla {web_text}:\nemail: {email}\npassword: {password}')
+        else:
+            messagebox.showinfo(title='Error', message='Nie znaleziono stronki')
 
 
 canvas = Canvas(width=200, height=200)
@@ -43,8 +71,8 @@ label_password = Label(text='Password:')
 label_password.grid(column=0, row=3)
 
 
-enter_website = Entry(width=55)
-enter_website.grid(column=1, row=1, columnspan=3)
+enter_website = Entry(width=36)
+enter_website.grid(column=1, row=1, columnspan=2)
 enter_website.focus()
 
 
@@ -57,12 +85,14 @@ enter_password = Entry(width=36)
 enter_password.grid(column=1, row=3)
 
 
-
 button_gen = Button(text='Generate password', command=generator)
 button_gen.grid(column=3, row=3)
 
 add_button = Button(text='Add', width=47, command=save)
 add_button.grid(column=1, row=5, columnspan=3)
+
+search_button = Button(text='Search', width=15, command=find_password)
+search_button.grid(column=3, row=1)
 
 
 
