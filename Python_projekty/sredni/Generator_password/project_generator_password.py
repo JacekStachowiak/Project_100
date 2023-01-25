@@ -4,8 +4,6 @@ from generator import gen_pass
 
 
 
-# pyperclip --> metoda kopiowania do schowka
-
 window = Tk()
 window.title('Password Manager')
 window.config(padx=20, pady=20)
@@ -26,7 +24,7 @@ def save():
         msg = messagebox.askokcancel(title=website, message=f'Wprowadziłeś:\n--> website: {website}\n--> email: {email}\n--> password: {password}\nAkceptujesz?')
 
         if msg:
-            with open('data.txt', 'a') as data:
+            with open('data_2.txt', 'a') as data:
                 data.write(f'{website} | {email} | {password}\n')
                 enter_website.delete(0, END)
                 enter_password.delete(0, END)
