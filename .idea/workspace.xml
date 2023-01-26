@@ -7,22 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="dodanie opcji search do funkcjonalności i funkcji find_password">
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/data/french_words.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/data/polish_words_2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/images/card_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/images/card_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/images/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/main.py" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="New Project - learning english">
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/SMTP_port_nad_Time/Birthday Wisher (Day 32) start/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/SMTP_port_nad_Time/Birthday Wisher (Day 32) start/quotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pliki/Birthday+Wisher+(Day+32)+start.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pliki/Kraus Dawid.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/flash-card-project-start.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/french_words.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/polish_words.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/project_generator_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Generator_password/project_generator_password.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Pomodoro/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Pomodoro/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/Git_projekty/Python_100/Python_projekty/sredni/Learning_english_words/data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Git_projekty/Python_100/Python_szkolenie/sredni/SMTP_port_nad_Time&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
@@ -99,6 +89,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Git_projekty\Python_100\Python_szkolenie\sredni\SMTP_port_nad_Time" />
       <recent name="H:\Git_projekty\Python_100\Python_projekty\sredni\Learning_english_words\data" />
       <recent name="H:\Git_projekty\Python_100\Python_projekty\sredni\Generator_password" />
     </key>
@@ -110,7 +101,7 @@
       <recent name="H:\Git_projekty\Python_100\Python_projekty\sredni\obraz Hirst" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Python_projekty">
     <configuration name="Python_projekty" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_100" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,20 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672917032148</updated>
-    </task>
-    <task id="LOCAL-00003" summary="New file calculator">
-      <created>1673445829920</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673445829920</updated>
-    </task>
-    <task id="LOCAL-00004" summary="New file calculator">
-      <created>1673539295875</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673539295875</updated>
     </task>
     <task id="LOCAL-00005" summary="New file calculator">
       <created>1673543577100</created>
@@ -514,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674667600451</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="New Project - learning english">
+      <created>1674747425451</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1674747425451</updated>
+    </task>
+    <task id="LOCAL-00053" summary="New Project - learning english">
+      <created>1674747445878</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1674747445878</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="nowy projekt higher/lower" />
     <MESSAGE value="nowy project program sterujący ekspresem do kawy" />
     <MESSAGE value="coffee machine zmodyfikowana obiektowo na class" />
     <MESSAGE value="change name" />
@@ -576,7 +566,8 @@
     <MESSAGE value="zmiana nazwy pliku" />
     <MESSAGE value="dodanie obsługi try/except do Alphabet Nato" />
     <MESSAGE value="dodanie opcji search do funkcjonalności i funkcji find_password" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie opcji search do funkcjonalności i funkcji find_password" />
+    <MESSAGE value="New Project - learning english" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Project - learning english" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
