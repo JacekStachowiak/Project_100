@@ -76,7 +76,7 @@ enter_website.grid(column=1, row=1, columnspan=2)
 enter_website.focus()
 
 
-enter_email = Entry(width=55)
+enter_email = Entry(width=56)
 enter_email.grid(column=1, row=2, columnspan=3)
 enter_email.insert(END, 'jacek_stachowiak57@gmail.com')
 
@@ -85,13 +85,13 @@ enter_password = Entry(width=36)
 enter_password.grid(column=1, row=3)
 
 
-button_gen = Button(text='Generate password', command=generator)
+button_gen = Button(text='Generate password', font=('Arial', 8,'bold'), bg='yellow', command=generator)
 button_gen.grid(column=3, row=3)
 
-add_button = Button(text='Add', width=47, command=save)
+add_button = Button(text='Add', width=47, font=('Arial', 8,'bold'), bg='blue', fg='white', command=save)
 add_button.grid(column=1, row=5, columnspan=3)
 
-search_button = Button(text='Search', width=15, command=find_password)
+search_button = Button(text='Search', width=15, font=('Arial', 8, 'bold'), bg='green', fg='white', command=find_password)
 search_button.grid(column=3, row=1)
 
 
