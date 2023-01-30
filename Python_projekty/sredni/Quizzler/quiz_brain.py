@@ -1,6 +1,8 @@
 import html
 
 
+THEME_COLOR = "#375362"
+
 class QuizBrain:
 
     def __init__(self, q_list):
@@ -24,12 +26,12 @@ class QuizBrain:
         correct_answer = self.current_question.answer
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
-            print("You got it right!")
+            return True
         else:
-            print("That's wrong.")
+            return False
 
-        print(f"Your current score is: {self.score}/{self.question_number}")
-        print("\n")
+        # print(f"Your current score is: {self.score}/{self.question_number}")
+        # print("\n")
 
 
 
