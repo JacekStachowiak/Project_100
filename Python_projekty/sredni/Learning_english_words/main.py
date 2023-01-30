@@ -41,7 +41,7 @@ def is_know():
 
 window = Tk()
 window.title('Words')
-window.config(padx=30 , pady=30, bg=BACKGROUND_COLOR, highlightthickness=0)
+window.config(padx=30, pady=30, bg=BACKGROUND_COLOR, highlightthickness=0)
 
 flip_timer = window.after(3000, func=flip_card)
 

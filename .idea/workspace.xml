@@ -7,12 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="New Project - learning english">
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/SMTP_port_nad_Time/Birthday Wisher (Day 32) start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_szkolenie/sredni/SMTP_port_nad_Time/Birthday Wisher (Day 32) start/quotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/Birthday+Wisher+(Day+32)+start.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pliki/Kraus Dawid.doc" afterDir="false" />
+    <list default="true" id="7f22d127-8b9b-4372-8b87-c6f807aeaba2" name="Changes" comment="New project - quizzer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Learning_english_words/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/quiz_brain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_projekty/sredni/Quizzler/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <recent name="H:\Git_projekty\Python_100\Python_projekty\sredni\obraz Hirst" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Python_projekty">
+  <component name="RunManager">
     <configuration name="Python_projekty" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python_100" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672917032148</updated>
-    </task>
-    <task id="LOCAL-00005" summary="New file calculator">
-      <created>1673543577100</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673543577100</updated>
     </task>
     <task id="LOCAL-00006" summary="New file calculator">
       <created>1673547910488</created>
@@ -505,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674747445878</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="New project - quizzer">
+      <created>1675020080897</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1675020080898</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="nowy project program sterujący ekspresem do kawy" />
     <MESSAGE value="coffee machine zmodyfikowana obiektowo na class" />
     <MESSAGE value="change name" />
     <MESSAGE value="new project - quiz" />
@@ -567,7 +567,8 @@
     <MESSAGE value="dodanie obsługi try/except do Alphabet Nato" />
     <MESSAGE value="dodanie opcji search do funkcjonalności i funkcji find_password" />
     <MESSAGE value="New Project - learning english" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Project - learning english" />
+    <MESSAGE value="New project - quizzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="New project - quizzer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
