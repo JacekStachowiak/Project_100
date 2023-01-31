@@ -11,9 +11,10 @@ def gen_pass():
     symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 
-    nr_letters = randint(8,10)
-    nr_symbols = randint(2,4)
-    nr_numbers = randint(2,4)
+
+    nr_letters = randint(8,15)
+    nr_symbols = randint(2,5)
+    nr_numbers = randint(2,5)
 
     password_list = [choice(letters) for _ in range(nr_letters)]
     password_list += [choice(symbols) for _ in range(nr_symbols)]
